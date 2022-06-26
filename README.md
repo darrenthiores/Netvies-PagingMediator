@@ -1,10 +1,13 @@
 # Netvies
 
-Netvies - Single Screen App Using Paging3 + Ktor Client with Clean Architecture and MVVM Pattern
+Netvies - Paging3 RemoteMediator
 
 Fully written in Kotlin using compose, implementing Clean Architecture and MVVM Pattern with Dependency Injection (Koin).
 Netvlies is a single screen app using MovieDB API as data source, then fetched with Ktor and displayed using Paging3.
 This project has been UI tested in the MainScreenTest.kt
+
+This app is basically the same with my recent project (Netvies) you can check it in my repository, what makes it different is that
+this one implement Paging3 RemoteMediator to support offline-online
 
 Note:
 if you want to try this project, please use your own API key and place it in the build.gradle(:core)
@@ -14,4 +17,4 @@ in the buildConfigField("String", "API_KEY", '"YOUR API KEY HERE"')
 
 Main Screen
 
-<img src="https://user-images.githubusercontent.com/69592810/170092676-9e91a0cb-a13a-4c22-a39d-df23fe3a5df2.png" width="35%" height="35%">
+<img src="https://user-images.githubusercontent.com/69592810/175814788-d238dcdc-de5f-4b03-bb4f-a6683a45cc6a.png" width="35%" height="35%">
